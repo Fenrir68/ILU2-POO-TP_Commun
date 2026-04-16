@@ -24,4 +24,8 @@ public class Centrale <T extends Formulaire>{
 		}
 		return res;
 	}
+	
+	public Reservation reserver(int entiteId, T formulaire) {
+		return null;
+	}
 }
