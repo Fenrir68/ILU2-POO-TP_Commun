@@ -10,6 +10,6 @@ public abstract class Reservation {
 	}
 	
 	public String toString() {
-		return String.format("Le %d/%d\n", numJ, numM);
+		return String.format("Le %d/%d ", numJ, numM);
 	}
 }

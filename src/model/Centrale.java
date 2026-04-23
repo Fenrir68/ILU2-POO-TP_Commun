@@ -25,7 +25,8 @@ public class Centrale <T extends Formulaire>{
 		return res;
 	}
 	
-	public Reservation reserver(int entiteId, T formulaire) {
-		return null;
+	public Reservation reserver(int numEntite, T formulaire) {
+			formulaire.setIdentificationEntite(entites[numEntite].getId());
+			return entites[numEntite].reserver(formulaire);
 	}
 }

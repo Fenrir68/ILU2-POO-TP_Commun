@@ -12,7 +12,7 @@ public class ReservationRestaurant extends Reservation{
 	
 	@Override
 	public String toString() {
-		return super.toString()+String.format("Table %d pour le %s service.", numTable, (numService==1?"premier":"deuxième"));
+		return super.toString()+String.format(": Table %d pour le %s service.", numTable, (numService==1?"premier":"deuxième"));
 	}
 
 }
